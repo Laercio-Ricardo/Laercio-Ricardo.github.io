@@ -1,0 +1,68 @@
+.carousel-item img {
+    max-width: 500px; /* Define a largura máxima das imagens para ocupar no máximo a largura do contêiner do carousel */
+    height: 100%; /* Mantém a proporção da imagem */
+}
+
+.carousel-item img {
+    width: 100%; /* Faz com que as imagens ocupem toda a largura do contêiner do carrossel */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.container-fluid {
+    padding: 60px 0;
+}
+
+/* Estilos para os botões */
+.btn-primary {
+    background-color: #e83e8c;
+    border-color: #e83e8c;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #d6317b;
+    border-color: #d6317b;
+}
+
+/* Estilos para os cards de propriedades */
+.card {
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para o cabeçalho */
+.navbar {
+    padding: 20px 0;
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 24px;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #f8f9fa;
+}
+/* Estilos para o botão "Ver Detalhes" */
+.btn-ver-detalhes {
+    background-color: #e83e8c;
+    border-color: #e83e8c;
+    color: #fff;
+}
+
+.btn-ver-detalhes:hover {
+    background-color: #d6317b;
+    border-color: #d6317b;
+}

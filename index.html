@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Venda de Casas</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Estilos CSS personalizados -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Script para animação de máquina de escrever -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+  <style>
+    #typed-text {
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin-top: 20px;
+      padding: 20px;
+      border-radius: 5px;
+      background-color: rgba(255, 255, 255, 0.9);
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      color: #000; /* Cor do texto preto */
+    }
+  </style>
+</head>
+<body>
+<body>
+
+<!-- Barra de navegação -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Venda de Casas</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#sobre">Sobre</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#casas">Casas</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contato">Contato</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<section id="sobre" class="py-5">
+    <div class="container">
+      <div class="card text-center bg-success text-white">
+        <div class="card-body">
+          <h2 class="card-title">Sobre a Laércio Ricardo Imóveis</h2>
+          <p id="typed-text" class="card-text lead"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Cards das casas em destaque -->
+<div class="container my-5">
+  <h2 class="text-center">Casas em Destaque</h2>
+  <div class="row justify-content-center">
+    <div class="col-md-4">
+      <div class="card mb-4">
+        <img src="casa1.jpeg" class="card-img-top" alt="Casa 1">
+        <div class="card-body">
+          <h5 class="card-title">Casa 1</h5>
+          <p class="card-text">Descrição da Casa 1.</p>
+          <a href="#" class="btn btn-primary">Ver Detalhes</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card mb-4">
+        <img src="casa2.jpeg" class="card-img-top" alt="Casa 2">
+        <div class="card-body">
+          <h5 class="card-title">Casa 2</h5>
+          <p class="card-text">Descrição da Casa 2.</p>
+          <a href="#" class="btn btn-primary">Ver Detalhes</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card mb-4">
+        <img src="casa3.jpeg" class="card-img-top" alt="Casa 3">
+        <div class="card-body">
+          <h5 class="card-title">Casa 3</h5>
+          <p class="card-text">Descrição da Casa 3.</p>
+          <a href="#" class="btn btn-primary">Ver Detalhes</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Seção de formulário -->
+<section id="formulario" class="py-5 bg-light">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <h2 class="mb-4">Entre em Contato</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea class="form-control" id="mensagem" rows="5" placeholder="Digite sua mensagem"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Seção de localização -->
+<section id="localizacao" class="py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <h2 class="mb-4">Localização</h2>
+                <!-- Adicione aqui o mapa ou informações de localização -->
+                <!-- Exemplo de mapa com a localização -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31059.85400318296!2d-122.06311127723807!3d37.401320617023754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbbf66fe240d5%3A0xbfc79557680db10!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1632896030094!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+ <script>
+                    var typed = new Typed('#typed-text', {
+                      strings: ['<strong>Aqui vai um pouco sobre a nossa história no mercado :D</strong>', '<strong>Fundada em 2005, a Laércio Ricardo Imóveis é uma empresa especializada na compra, venda e aluguel de imóveis residenciais e comerciais. Com uma equipe experiente e dedicada, estamos comprometidos em oferecer aos nossos clientes um serviço personalizado e de alta qualidade. Nossa missão é ajudar as pessoas a encontrar o lar dos seus sonhos e investimentos imobiliários que atendam às suas necessidades e expectativas. Ao longo dos anos, construímos uma reputação sólida e confiável no mercado imobiliário, baseada em integridade, transparência e excelência no atendimento. Estamos sempre empenhados em superar as expectativas dos nossos clientes e em contribuir para o desenvolvimento das comunidades em que atuamos.</strong>'],
+                      typeSpeed: 50,
+                      backSpeed: 50,
+                      loop: true,
+                      smartBackspace: true,
+                      showCursor: false
+                    });
+                  </script>
+                  
+                  </body>
+                  </html>               
